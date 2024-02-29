@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
+body{
+    background-color: rgb(208, 209, 209);
+    font-family: Courier Prime;
+}
+h1{
+    font-size: 85px;
+    color: aliceblue;
+}
+/* .photo-1{
+    width: 75px;
+}
+.photo{
+    width: 55px;
+} */
+.stopwatch{
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    background-image: url(.//images/WhatsApp\ Image\ 2023-10-06\ at\ 11.02.05.jpeg);
+    /* background-size: cover; */
+    /* background-position: center; */
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 10rem;
+    margin: 200px auto 0;
+    box-shadow: 0 65px 65px gray;
+}
+#play{
+    width: 26%;
+    height: 59px;
+    /* border-radius: 50px; */
+}
+#play:hover{
+    /* box-shadow: #00484f 5px 8px 3px 4px; */
+        transform: translateY(15%);
+        transition: width 2s, linear, 0.5s;
+}
+button{
+    width: 23%;
+    height: 50px;
+    font-size: 27px;
+    user-select: none;
+    background-color: rgb(30, 57, 210);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover{
+    transform: translateY(15%);
+        transition: width 2s, linear, 0.5s;
+        opacity: 0.6;
+        color: aliceblue;
+}
+button:active{
+    background-color: rgb(10, 6, 255);
+}
